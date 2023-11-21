@@ -8,4 +8,9 @@
         <script src="<?php echo get_template_directory_uri()?>/js/script.js" defer></script>
     </head>
 <body>
-<?php wp_nav_menu(); 
+<header>
+    <a href="#"> <img src="/images/munkebjerg_logo.png" alt="Logo"> </a>
+    <nav>
+        <?php wp_nav_menu();?>
+    </nav> 
+</header>
