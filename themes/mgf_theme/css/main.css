@@ -1,5 +1,6 @@
 @import url();
 
+/*Generelle styles*/
 :root{
     --latte: #F8F4E3;
     --jet: #2A2B2A;
@@ -8,20 +9,81 @@
     --silverlakeblue: #6C91C2;
 }
 
-body{
-    background-color: var(--latte);
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
 }
 
+li, ul {
+    list-style-type: none;
+}
+
+body{
+    background-color: var(--latte);
+    font-family: "montserrat", sans-serif;
+}
+
+/*Header styles*/
 header{
     width: 100%;
     height: 70px;
+
     background: var(--orange);
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-header .navmenu ul{
-    list-style-type: none;
-    display: flex;
+/*Navigation header*/
+header .navmenu {
     padding: 0;
     margin: 0;
+
+    display: flex;
+    gap: 10px;
+
+    font-style: italic;
 }
 
+header .navmenu li {
+    position: relative;
+}
+
+/*Sub menu indstillinger*/
+header .navmenu li .sub-menu {
+    display: none;
+    position: absolute;
+   
+    top: 100%;
+    left: 0;
+
+    margin: 0;
+    padding: 0;
+
+    background: var(--silverlakeblue);
+}
+
+header .navmenu li .sub-menu a {
+    display: block;
+    padding: 10px;
+}
+
+header .navmenu > .menu-item-has-children:hover > .sub-menu{
+    display: block;
+}
+
+/* Sub-sub menu indstillinger*/
+header .navmenu .sub-menu li .sub-menu {
+    top: 0;
+    left: 100%
+}
+
+header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hover .sub-menu {
+       display: block; /*Gør at man kun kan se den man hover over i sub-sub menuen*/
+}
+
+/* Footer menu*/
+    
