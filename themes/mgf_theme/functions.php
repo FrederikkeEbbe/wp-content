@@ -1,8 +1,9 @@
 <?php
     /*her sørger vi for at vi kan vælge de her menupunkter inde i wp-admin */
     register_nav_menus(array(
-        'main_menu' => 'Main Menu',
-        'footer_menu' => 'Footer Menu'
+    'nav-menu' => 'Navigation menu',
+    'footer-menu' => 'Footer Menu',
+    'mobile-menu' => 'Mobile Menu'
     ));
 
     /*
@@ -21,5 +22,6 @@
     }
     add_action('wp_enqueue_scripts', 'load_js');
     */
+
 
 

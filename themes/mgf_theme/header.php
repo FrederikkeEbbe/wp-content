@@ -9,8 +9,13 @@
     </head>
 <body>
 <header>
-    <a href="#"> <img src="/images/munkebjerg_logo.png" alt="Logo"> </a>
-    <nav>
-        <?php wp_nav_menu();?>
-    </nav> 
+    <!--Her fortæller vi wp hvilken lokation det her er (se vores functions for de forskellige menuer) -->
+    <?php 
+        wp_nav_menu(
+            array(
+                'theme_location' => 'nav-menu',
+                'menu_class' => 'navmenu'
+            )
+        );
+    ?>
 </header>
