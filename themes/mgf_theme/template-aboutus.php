@@ -12,7 +12,6 @@ Template Name: Om os
   
   <?php get_template_part('includes/section', 'content');?>
 
-
 </div>
 
 <?php get_footer(); /*her henter vi vores footer fil(footer.php), det er en wp funktion der er lavet i forvejen */ ?>
