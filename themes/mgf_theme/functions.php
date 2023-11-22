@@ -6,6 +6,10 @@
     'mobile-menu' => 'Mobile Menu'
     ));
 
+    /*sørger for at vi kan tilføje billeder til vores posts i wp-admin */
+    add_theme_support('post-thumbnails');
+    add_theme_support('widgets');
+    
     
     /*
     Kommenteret ud. Vi behøver ikke denne del. Det bruges til hvis man skal lave child themes.
