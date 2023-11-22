@@ -105,5 +105,50 @@ footer{
 }
 
 /* Front page start */
+.post-frontpage {
+    border: solid;
+}
+
+.post-frontpage h1 {
+    color: var(--orange);
+    text-transform: uppercase;
+}
+
+.post-frontpage h2 {
+    color: var(--jet);
+}
+
+.post-frontpage h3 {
+    color: var(--steelblue);
+    font-style: italic;
+    font-weight: 200;
+}
+
+.post-home a {
+    border-radius: 50px;
+    background-color: var(--orange);
+    font-family: inherit;
+    font-size: inherit;
+    padding: 10px 18px;
+    border: none;
+    color: white;
+}
+
+.teams-contain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teams-contain div{
+    width: 100px;
+    height: 200px;
+    background-color: #DD7230
+}
+
+.home-post {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 
 /*Front page slut*/
