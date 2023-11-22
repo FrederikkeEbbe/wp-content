@@ -23,15 +23,14 @@ li, ul {
 body{
     background-color: var(--latte);
     font-family: "montserrat", sans-serif;
+    margin: 0;
 }
 
 /*Header styles*/
 header{
     width: 100%;
     height: 70px;
-
     background: var(--orange);
-
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -40,16 +39,14 @@ header{
 /*Navigation header*/
 header .navmenu {
     padding: 0;
-    margin: 0;
-
+    margin: 0 5rem;
     display: flex;
-    gap: 10px;
-
     font-style: italic;
 }
 
 header .navmenu li {
     position: relative;
+    padding: 0 2rem 0 2rem;
 }
 
 /*Sub menu indstillinger*/
