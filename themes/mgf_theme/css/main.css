@@ -100,3 +100,6 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
 }
 
 /* Footer menu*/
+footer{
+    background-color: var(--steelblue);
+}
