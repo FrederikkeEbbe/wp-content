@@ -19,8 +19,12 @@
 
     if ($custom_query->have_posts()) :
         while ($custom_query->have_posts()) : $custom_query->the_post();
-            ?>
-            <?php the_content(); 
+            ?> 
+
+            <div class='hest'>
+
+            <?php the_content(); ?> </div>
+      <?php
         endwhile;
 
         // Ingen indlæg fundet i den specificerede kategori
