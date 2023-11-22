@@ -11,6 +11,8 @@
     add_theme_support('widgets');
     
     
+
+
     /*
     Kommenteret ud. Vi behøver ikke denne del. Det bruges til hvis man skal lave child themes.
     her enqueuer vi vores css fil, så vi kan style 
