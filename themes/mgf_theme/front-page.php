@@ -21,7 +21,7 @@
         while ($custom_query->have_posts()) : $custom_query->the_post();
             ?> 
 
-            <div class='hest'>
+            <div class='post-cat-wrap'>
 
             <?php the_content(); ?> </div>
       <?php
