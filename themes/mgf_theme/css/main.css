@@ -30,27 +30,43 @@ body{
 header{
     width: 100%;
     height: 70px;
-    background: var(--orange);
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
 }
 
 /*Navigation header*/
 header .navmenu {
     padding: 0;
-    display: flex;
     font-style: italic;
-}
-
-nav{
     display: flex;
     align-items: center;
 }
 
-header .navmenu li {
-    position: relative;
+.nav-items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+header .navmenu li{
     padding: 0 2rem;
+}
+
+.webshop-button{
+    border-radius: 50px;
+    background-color: var(--steelblue);
+    font-family: inherit;
+    font-size: inherit;
+    height: 40px;
+    width: 115px;
+    border: none;
+    color: white;
+    margin: 0 2rem;
+}
+
+.logo{
+    position: absolute;
+    height: 40px;
+    padding: 0.5rem 2rem 0 2rem;
 }
 
 /*Sub menu indstillinger*/
@@ -84,15 +100,3 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
 }
 
 /* Footer menu*/
-
-.webshop-button{
-    border-radius: 50px;
-    background-color: var(--steelblue);
-    font-family: inherit;
-    font-size: inherit;
-    height: 40px;
-    width: 115px;
-    border: none;
-    color: white;
-    margin: 0 2rem;
-}

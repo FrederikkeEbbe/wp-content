@@ -12,16 +12,21 @@
 <header>
     <!--Her fortæller vi wp hvilken lokation det her er (se vores functions for de forskellige menuer) -->
     <nav>
-        <?php 
-            wp_nav_menu(
-                array(
-                    'theme_location' => 'nav-menu',
-                    'menu_class' => 'navmenu'
-                )
-            );
-        ?>
-        <form action="https://shop.sportogprofil.dk/munkebjerg/da/735-klubdragt">
-            <button class="webshop-button" type="submit">Webshop</button>
-        </form>
+        <a href="<?php echo home_url()?>">
+            <img class="logo" src="http://localhost/mgf/wp-content/uploads/2023/11/munkebjerg_logo.png" alt="Logo">
+        </a>
+        <div class="nav-items">   
+            <?php 
+                wp_nav_menu(
+                    array(
+                        'theme_location' => 'nav-menu',
+                        'menu_class' => 'navmenu'
+                    )
+                );
+            ?>
+            <form action="https://shop.sportogprofil.dk/munkebjerg/da/735-klubdragt">
+                <button class="webshop-button" type="submit">Webshop</button>
+            </form>
+        </div>
     </nav>
 </header>
