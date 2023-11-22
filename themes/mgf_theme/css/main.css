@@ -139,11 +139,12 @@ footer{
     justify-content: space-between;
 }
 
-.teams-contain div{
+.teams-img{
     width: 100px;
     height: 200px;
-    background-color: #DD7230
+    object-fit: cover;
 }
+
 
 .home-post {
     display: flex;

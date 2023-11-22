@@ -42,7 +42,7 @@
                 </a>
                 
                 <a class='teams-link' href="#">
-                  <img class="teams'img" src="http://localhost/mgf/wp-content/uploads/2023/11/371521014_872576170988323_1780345655675662268_n.jpg" alt="Børnehold">
+                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/371521014_872576170988323_1780345655675662268_n.jpg" alt="Børnehold">
                   <p>Voksen</p>
                 </a>
                 
