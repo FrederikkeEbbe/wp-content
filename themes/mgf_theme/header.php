@@ -20,6 +20,8 @@
                 )
             );
         ?>
-        <!-- her skal der være plads til en knap, til webshoppen-->
+        <form action="https://shop.sportogprofil.dk/munkebjerg/da/735-klubdragt">
+            <button class="webshop-button" type="submit">Webshop</button>
+        </form>
     </nav>
 </header>
