@@ -24,8 +24,6 @@
             array('post', 'page'),
             /*kontekst af hvor den skal vises*/
             'normal'
-            /*prioritet*/
-            'high'
             /*sætter det ind i et array så vi looper mellem alle sektionerne*/
             array('id' => 'footer_section_1')
         );
@@ -40,8 +38,6 @@
             array('post', 'page'),
             /*kontekst af hvor den skal vises*/
             'normal'
-            /*prioritet*/
-            'high'
             /*sætter det ind i et array så vi looper mellem alle sektionerne*/
             array('id' => 'footer_section_2')
         );
@@ -56,8 +52,6 @@
             array('post', 'page'),
             /*kontekst af hvor den skal vises*/
             'normal'
-            /*prioritet*/
-            'high'
             /*sætter det ind i et array så vi looper mellem alle sektionerne*/
             array('id' => 'footer_section_3')
         );
@@ -72,8 +66,6 @@
             array('post', 'page'),
             /*kontekst af hvor den skal vises*/
             'normal'
-            /*prioritet*/
-            'high'
             /*sætter det ind i et array så vi looper mellem alle sektionerne*/
             array('id' => 'footer_section_4')
         );
