@@ -219,5 +219,22 @@ footer{
 /*Front page slut*/
 
 /*Accordion start*/
+ .ea-header {
+    background-color: var(--orange);
+    border-radius: 5px;
+ }
+ 
+ #sp-ea-123.sp-easy-accordion>.sp-ea-single>.ea-header a, #sp-ea-123.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa {
+    color: #fff;
+ }
+
+ #sp-ea-123.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body {
+    border-radius: 5px;
+ }
+
+ #sp-ea-123.sp-easy-accordion>.sp-ea-single {
+    border-radius: 5px;
+    border: none;
+}
 
 /*Accordion slut*/
