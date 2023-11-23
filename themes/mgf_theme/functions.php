@@ -17,13 +17,14 @@
             /*id*/
             'traeningssteder',
             /*titel i wp*/
-            'Footer section 1',
+            'Træningssteder',
             /*callback function der kalder det i wp admin*/
             'display_custom_fields_meta_box',
             /*bestemmer at det skal vises på vores pages og posts*/
             array('post', 'page'),
             /*kontekst af hvor den skal vises*/
-            'normal'
+            'normal',
+            null,
             /*sætter det ind i et array så vi looper mellem alle sektionerne*/
             array('id' => 'footer_section_1')
         );
@@ -31,13 +32,14 @@
             /*id*/
             'til-medlemmer',
             /*titel i wp*/
-            'Footer section 2',
+            'Til medlemmer',
             /*callback function der kalder det i wp admin*/
             'display_custom_fields_meta_box',
             /*bestemmer at det skal vises på vores pages og posts*/
             array('post', 'page'),
             /*kontekst af hvor den skal vises*/
-            'normal'
+            'normal',
+            null,
             /*sætter det ind i et array så vi looper mellem alle sektionerne*/
             array('id' => 'footer_section_2')
         );
@@ -45,13 +47,14 @@
             /*id*/
             'kontaktinfo',
             /*titel i wp*/
-            'Footer section 3',
+            'Kontaktinfo',
             /*callback function der kalder det i wp admin*/
             'display_custom_fields_meta_box',
             /*bestemmer at det skal vises på vores pages og posts*/
             array('post', 'page'),
             /*kontekst af hvor den skal vises*/
-            'normal'
+            'normal',
+            null,
             /*sætter det ind i et array så vi looper mellem alle sektionerne*/
             array('id' => 'footer_section_3')
         );
@@ -59,13 +62,14 @@
             /*id*/
             'til-instruktore',
             /*titel i wp*/
-            'Footer section 4',
+            'Til instruktøre',
             /*callback function der kalder det i wp admin*/
             'display_custom_fields_meta_box',
             /*bestemmer at det skal vises på vores pages og posts*/
             array('post', 'page'),
             /*kontekst af hvor den skal vises*/
-            'normal'
+            'normal',
+            null,
             /*sætter det ind i et array så vi looper mellem alle sektionerne*/
             array('id' => 'footer_section_4')
         );
@@ -77,7 +81,7 @@
         /*vis html baseret på footer section id */
         ?>
         <label for="<?php echo esc_attr($footer_section_id); ?>">Footer Section <?php echo esc_html($footer_section_id); ?> </label>
-        <input type="text" name="<?php echo esc_attr($footer_section_id); ?>" value= "<?php echo esc_attr(get_post_meta($post->ID, $footer_section_id, true)); ?>" style = "width: 100%>
+        <input type="text" name="<?php echo esc_attr($footer_section_id); ?>" value= "<?php echo esc_attr(get_post_meta($post->ID, $footer_section_id, true)); ?>" style = "width: 100%;">
         <?php
     }
 
