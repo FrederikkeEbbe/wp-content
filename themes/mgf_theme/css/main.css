@@ -20,11 +20,16 @@ li, ul {
     list-style-type: none;
 }
 
-body{
+body {
     background-color: var(--latte);
     font-family: "montserrat", sans-serif;
     margin: 0;
+    padding: calc(8px + 1.5625vw);
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
 
 /*Header styles*/
 header{
@@ -105,26 +110,26 @@ footer{
 }
 
 /* Front page start */
-.post-frontpage {
+.post-frontpage { 
     border: solid;
 }
 
-.post-frontpage h1 {
+.post-frontpage h1 { /* Font på frontpage*/
     color: var(--orange);
     text-transform: uppercase;
 }
 
-.post-frontpage h2 {
+.post-frontpage h2 { /* Font på frontpage*/
     color: var(--jet);
 }
 
-.post-frontpage h3 {
+.post-frontpage h3 { /* Font på frontpage */
     color: var(--steelblue);
     font-style: italic;
     font-weight: 200;
 }
 
-.post-home a {
+.post-home a {  /* Knap til links i home post*/
     border-radius: 50px;
     background-color: var(--orange);
     font-family: inherit;
@@ -134,19 +139,45 @@ footer{
     color: white;
 }
 
-.teams-contain {
+.teams-contain { /*Flex til billeder (teams post)*/
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.teams-img{
-    width: 100px;
-    height: 200px;
+.teams-link{ /*Position til tekst*/
+    text-align: center;
+    position: relative;
+}
+
+.teams-link:hover{
+    opacity: 0.6;
+}
+
+.teams-link p { /*Style af txt på teams billeder*/
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-weight: bold;
+    color: #DD7230;
+    font-style: italic;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-shadow: 1.5px 1.5px 4px var(--jet);
+  }
+
+.teams-img{ /*Billeder på teams post*/
+    min-width: 200px;
+    max-width: 250px;
+    height: 250px;
     object-fit: cover;
+    flex: 1 1;
 }
 
-
-.home-post {
+.home-post { /*Post display på frontpage*/
     display: flex;
     flex-direction: row-reverse;
 }
