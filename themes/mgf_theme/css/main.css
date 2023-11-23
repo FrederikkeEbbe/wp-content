@@ -120,6 +120,10 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
 /* Footer menu*/
 footer{
     background-color: var(--steelblue);
+    display: flex;
+}
+
+.footer-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -133,6 +137,19 @@ footer{
 .footersection h3{
     font-style: italic;
     font-weight: 500;
+}
+
+.somefooter{
+    color: var(--latte);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.links{
+    display: flex;
 }
 
 /* Front page start */
