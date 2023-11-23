@@ -116,6 +116,11 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
 /* Footer menu*/
 footer{
     background-color: var(--steelblue);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
 .footersection{
