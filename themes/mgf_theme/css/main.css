@@ -120,12 +120,16 @@ footer{
 
 .footersection{
     color: var(--latte);
-    border: var(--latte) 2px;
 }
 
 .footersection h3{
     font-style: italic;
     font-weight: 500;
+}
+
+.footersection p{
+    margin: 0;
+    line-height: 1.5rem;
 }
 
 /* Front page start */
