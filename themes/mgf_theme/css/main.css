@@ -111,6 +111,7 @@ footer{
 
 .footersection{
     color: var(--latte);
+    border: var(--latte) 2px;
 }
 
 .footersection h3{
