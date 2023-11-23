@@ -6,12 +6,9 @@ Template Name: Information
 
 <?php get_header(); /*her henter vi vores header fil(header.php), det er en wp funktion der er lavet i forvejen */ ?>
 <main>
-<div>
-  <h1>  <?php the_title();?>  </h1>
-  
+<div class='information-page'>
   
   <?php get_template_part('includes/section', 'content');?>
-
 
 </div>
 </main>
