@@ -1,5 +1,6 @@
 
 <?php get_header(); /*her henter vi vores header fil(header.php), det er en wp funktion der er lavet i forvejen */ ?>
+
 <section class='hero-video-contain'>
 <div class='hero-video'>
   <?php //henter content på siden. Her mediefilen lagt ind i Home page
@@ -7,6 +8,7 @@
   ?>
 </div>
 </section>
+<main>
 <section class=home-teams>
 <?php //følgende kode hjælper os med at få posts ind på siden.
     $args = array(
@@ -99,5 +101,5 @@
   ?>
 </section> 
 
-
+</main>
 <?php get_footer(); /*her henter vi vores footer fil(footer.php), det er en wp funktion der er lavet i forvejen */ ?>

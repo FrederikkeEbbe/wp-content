@@ -12,11 +12,15 @@
 a {
     text-decoration: none;
 }
-a:visited {
+ul:visited, li:visited, a:visited {
     color: inherit;
 }
 
-li, ul {
+a:hover {
+    text-decoration: underline;
+}
+
+a, li, ul {
     list-style-type: none;
 }
 
@@ -24,6 +28,9 @@ body {
     background-color: var(--latte);
     font-family: "montserrat", sans-serif;
     margin: 0;
+}
+
+main {
     padding: calc(8px + 1.5625vw);
 }
 
@@ -39,6 +46,7 @@ header{
 
 /*Navigation header*/
 header .navmenu {
+    position: relative;
     padding: 0;
     font-style: italic;
     display: flex;
@@ -78,6 +86,7 @@ header .navmenu li{
 header .navmenu li .sub-menu {
     display: none;
     position: absolute;
+    z-index: 999;
     top: 100%;
     left: 0;
     margin: 0;
@@ -193,11 +202,9 @@ footer{
 }
 
 @media only screen and (min-width: 900px) {
-    body section {
+    main {
       margin: 2px 134px;
-    }
-    .hero-video-contain {
-        margin: 0;
+      padding: 0;
     }
   }
 
