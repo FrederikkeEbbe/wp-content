@@ -106,7 +106,18 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
 
 /* Footer menu*/
 footer{
+    width: 100%;
+    margin: 0;
     background-color: var(--steelblue);
+}
+
+.footersection{
+    color: var(--latte);
+}
+
+.footersection h3{
+    font-style: italic;
+    font-weight: 500;
 }
 
 /* Front page start */
