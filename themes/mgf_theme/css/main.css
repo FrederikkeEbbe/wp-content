@@ -172,13 +172,6 @@ footer{
     width: 100%;
 }
 
-.teams-contain { /*Flex til billeder (teams post)*/
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .teams-link{ /*Position til tekst*/
     text-align: center;
     position: relative;
@@ -200,14 +193,37 @@ footer{
     font-size: 24px;
     text-transform: uppercase;
     text-shadow: 1.5px 1.5px 4px var(--jet);
-  }
-
-.teams-img{ /*Billeder på teams post*/
-    max-width: 175px;
-    height: 250px;
-    object-fit: cover;
-    flex: 1 1;
 }
+
+.teams-contain {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .teams-link {
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .teams-img {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  @media (min-width: 600px) {
+    .teams-contain {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .teams-contain {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
 
 .home-post { /*Post display på frontpage*/
     display: flex;
@@ -232,4 +248,29 @@ footer{
     }
   }
 
-/*Front page slut*/
+/* Information page*/
+.information-page {
+    margin-top: 50px;
+}
+/*Accordion start*/
+
+ .ea-header {
+    background-color: var(--orange);
+    border-radius: 5px;
+ }
+ 
+ #sp-ea-123.sp-easy-accordion>.sp-ea-single>.ea-header a, #sp-ea-123.sp-easy-accordion>.sp-ea-single>.ea-header a .ea-expand-icon.fa {
+    color: #fff;
+ }
+
+ #sp-ea-123.sp-easy-accordion>.sp-ea-single>.sp-collapse>.ea-body {
+    border-radius: 5px;
+ }
+
+ #sp-ea-123.sp-easy-accordion>.sp-ea-single {
+    border-radius: 5px;
+    border: none;
+}
+
+/*Accordion slut*/
+
