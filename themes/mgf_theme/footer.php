@@ -21,7 +21,6 @@
             ?> 
 
             <div class='footersection'>
-            <?php the_title(); ?>
             <?php the_content(); ?> </div>
       <?php
         endwhile;
