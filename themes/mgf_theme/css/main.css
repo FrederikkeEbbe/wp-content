@@ -34,6 +34,10 @@ main {
     padding: calc(8px + 1.5625vw);
 }
 
+p {
+    line-height: 1.5rem;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -123,16 +127,12 @@ footer{
 
 .footersection{
     color: var(--latte);
+    padding: 2rem;
 }
 
 .footersection h3{
     font-style: italic;
     font-weight: 500;
-}
-
-.footersection p{
-    margin: 0;
-    line-height: 1.5rem;
 }
 
 /* Front page start */
@@ -214,8 +214,5 @@ footer{
       padding: 0;
     }
   }
+
 /*Front page slut*/
-
-/*Accordion start*/
-
-/*Accordion slut*/
