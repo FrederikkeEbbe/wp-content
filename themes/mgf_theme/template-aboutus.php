@@ -13,7 +13,7 @@ Template Name: Om os
 <?php //følgende kode hjælper os med at få posts ind på siden.
     $args = array(
         'post_type' => 'post',  // Vi ønsker kun indlæg
-        'cat' => 12,             // Kategori ID er 12.
+        'cat' => 12,             // Kategori ID er 10.
         'posts_per_page' => -1, // Vis alle indlæg i kategorien
     );
 
@@ -23,7 +23,7 @@ Template Name: Om os
         while ($custom_query->have_posts()) : $custom_query->the_post();
             ?> 
 
-            <div>
+            <div class='footersection'>
             <?php the_content(); ?> </div>
       <?php
         endwhile;

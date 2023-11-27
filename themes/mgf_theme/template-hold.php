@@ -13,9 +13,35 @@ Template Name: Hold & tilmelding
 </div>
 <div class ="teamtypes">
   <a class='teamtypeslink' href="#"> 
-    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/371521014_872576170988323_1780345655675662268_n.jpg" alt="Familie hold">
-    <h1>Familie</h1>
+    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/team-family.jpg" alt="Familiehold">
+    <h1>Familiehold</h1>
+    <h2>Se hold</h2>
   </a>
-                
+  <a class='teamtypeslink' href="#"> 
+    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/team-children.jpg" alt="Børnehold">
+    <h1>Børnehold</h1>
+    <h2>Se hold</h2>
+  </a>
+  <a class='teamtypeslink' href="#"> 
+    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/team-young.jpg" alt="Ungehold">
+    <h1>Ungehold</h1>
+    <h2>Se hold</h2>
+  </a>
+  <a class='teamtypeslink' href="#"> 
+    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/team-adult.jpg" alt="Voksenhold">
+    <h1>Voksenhold</h1>
+    <h2>Se hold</h2>
+  </a>
+  <a class='teamtypeslink' href="#"> 
+    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/team-tg.jpg" alt="Team gym">
+    <h1>Team gym</h1>
+    <h2>Se hold</h2>
+  </a>
+  <a class='teamtypeslink' href="#"> 
+    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/team-gp.jpg" alt="Grand prix">
+    <h1>Grand prix</h1>
+    <h2>Se hold</h2>
+  </a>
+
 </div>
 <?php get_footer(); /*her henter vi vores footer fil(footer.php), det er en wp funktion der er lavet i forvejen */ ?>
