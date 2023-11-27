@@ -375,8 +375,36 @@ footer{
 
 
 /*********  Om os side   **********/
+.about-blue, .about-reg {
+    padding: 24px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
 
+.about-img {
+    max-height: 499px;
+    width: 100%;
+    object-fit: cover;
+  }
 
+  
+  @media (min-width: 650px) {
+    .about-blue, .about-reg {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 900px) {
+    .about-blue, .about-reg {
+      padding: 24px 134px;
+    }
+  }
+
+.about-blue{
+    background-color: #6C91C2;
+}
 
 
 
