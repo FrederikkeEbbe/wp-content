@@ -1,6 +1,6 @@
 @import url();
 
-/*Generelle styles*/
+/***********************Generelle styles*****************************/
 :root{
     --latte: #F8F4E3;
     --jet: #2A2B2A;
@@ -53,13 +53,13 @@ h2{
     font-weight: 500;
 }
 
-/*Header styles*/
+/*********************Header styles*********************************/
 header{
     width: 100%;
     height: 70px;
 }
 
-/*Navigation header*/
+/************************************Navigation header********************************/
 header .navmenu {
     position: relative;
     padding: 0;
@@ -128,19 +128,7 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
        display: block; /*Gør at man kun kan se den man hover over i sub-sub menuen*/
 }
 
-/*template-hold css*/
-
-.header-section{
-    background: var(--steelblue);
-    width: 100%;
-    color: var(--latte);
-}
-
-.padding{
-    padding: calc(8px + 1.5625vw);
-}
-
-/* Footer menu*/
+/**************************************Footer menu***************************/
 footer{
     background-color: var(--steelblue);
     display: flex;
@@ -182,7 +170,7 @@ footer{
     display: flex;
 }
 
-/* Front page start */
+/*************************** Front page start ************************/
 .post-frontpage h1 { /* Font på frontpage*/
     color: var(--orange);
     text-transform: uppercase;
@@ -290,7 +278,7 @@ footer{
   }
 
 
-/* Information page*/
+/************************* Information page**************************/
 .information-page {
     margin-top: 50px;
 }
@@ -316,11 +304,23 @@ footer{
 
 /*Accordion slut*/
 
-/*holdoversigt*/
+/*********************************holdoversigt*********************************/
+.header-section{
+    background: var(--steelblue);
+    width: 100%;
+    color: var(--latte);
+    margin-bottom: 1rem;
+}
+
+.padding{
+    padding: calc(8px + 1.5625vw);
+}
+
 .teamtypes{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0.2rem;
     text-align: center;
 }
 
@@ -328,14 +328,21 @@ footer{
     text-decoration: none;
 }
 
-.teamtypes h1{
-    color: var(--orange);
-    position: absolute;
+.teamtypeslink{ /*Position til tekst*/
+    text-align: center;
+    position: relative;
+} 
+.teamstypeslink h1 { /*Style af txt på teams billeder*/
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--orange);
 }
 
-.teamtypes h2{
-    color: var(--steelblue);
+.teamtypes img{
+    max-height: 560px;
+    width: 100%;
+    object-fit: cover;
 }
-
-
 

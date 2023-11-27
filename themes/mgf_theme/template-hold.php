@@ -12,35 +12,29 @@ Template Name: Hold & tilmelding
   </section>
 </div>
 <div class ="teamtypes">
-  <a class='teamtypeslink' href="#"> 
-    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/team-family.jpg" alt="Familiehold">
+  <a class="teamtypeslink" href="#"> 
+    <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-family.jpg" alt="Familiehold">
     <h1>Familiehold</h1>
-    <h2>Se hold</h2>
   </a>
-  <a class='teamtypeslink' href="#"> 
-    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/team-children.jpg" alt="Børnehold">
+  <a class="teamtypeslink" href="#"> 
+    <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-children.jpg" alt="Børnehold">
     <h1>Børnehold</h1>
-    <h2>Se hold</h2>
   </a>
-  <a class='teamtypeslink' href="#"> 
-    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/team-young.jpg" alt="Ungehold">
-    <h1>Ungehold</h1>
-    <h2>Se hold</h2>
+  <a class="teamtypeslink" href="#"> 
+    <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-young.jpg" alt="ungdomshold">
+    <h1>Ungdomshold</h1>
   </a>
-  <a class='teamtypeslink' href="#"> 
-    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/team-adult.jpg" alt="Voksenhold">
+  <a class="teamtypeslink" href="#"> 
+    <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-adult.jpg" alt="Voksenhold">
     <h1>Voksenhold</h1>
-    <h2>Se hold</h2>
   </a>
-  <a class='teamtypeslink' href="#"> 
-    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/team-tg.jpg" alt="Team gym">
+  <a class="teamtypeslink" href="#"> 
+    <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-tg.jpg" alt="Team gym">
     <h1>Team gym</h1>
-    <h2>Se hold</h2>
   </a>
-  <a class='teamtypeslink' href="#"> 
-    <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/team-gp.jpg" alt="Grand prix">
+  <a class="teamtypeslink" href="#"> 
+    <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-gp.jpg" alt="Grand prix">
     <h1>Grand prix</h1>
-    <h2>Se hold</h2>
   </a>
 
 </div>
