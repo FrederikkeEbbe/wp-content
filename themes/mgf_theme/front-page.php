@@ -30,32 +30,32 @@
               <div class='teams-contain'>
 
                 <a class='teams-link' href="#">
-                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/371521014_872576170988323_1780345655675662268_n.jpg" alt="Familiehold">
+                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/category-family-boys.jpg" alt="Familiehold">
                   <p>Familie</p>
                 </a>
                 
                 <a class='teams-link' href="#">
-                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/371521014_872576170988323_1780345655675662268_n.jpg" alt="Børnehold">
+                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/category-child-smile.jpg" alt="Børnehold">
                   <p>Børn</p>
                 </a>
                 
                 <a class='teams-link' href="#">
-                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/371521014_872576170988323_1780345655675662268_n.jpg" alt="Ungehold">
+                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/category-young.jpg" alt="Ungehold">
                   <p>Unge</p>
                 </a>
                 
                 <a class='teams-link' href="#">
-                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/371521014_872576170988323_1780345655675662268_n.jpg" alt="Voksenhold">
+                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/category-adult-walk.jpg" alt="Voksenhold">
                   <p>Voksen</p>
                 </a>
                 
                 <a class='teams-link' href="#">
-                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/371521014_872576170988323_1780345655675662268_n.jpg" alt="TeamGym">
+                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/category-teamgym-boys.jpg" alt="TeamGym">
                   <p>TeamGym</p>
                 </a>
                 
                 <a class='teams-link' href="#">
-                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/371521014_872576170988323_1780345655675662268_n.jpg" alt="GrandPrix">
+                  <img class="teams-img" src="http://localhost/mgf/wp-content/uploads/2023/11/category-gp-group.jpg" alt="GrandPrix">
                   <p>GrandPrix</p>
                 </a>
 
