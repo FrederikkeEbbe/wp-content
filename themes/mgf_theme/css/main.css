@@ -53,23 +53,22 @@ h2{
     font-weight: 500;
 }
 
-/* .waves{
-    position: absolute;
-    top: 0;
-    left: 0;
+.waves{
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    }
-     */
+}
+
 .waves svg {
     position: relative;
+    top: 0;
+    display: block;
     width: calc(100% + 1.3px);
     height: 116px;
 }
     
 .waves .shape-fill {
-    fill: #DD7230;
+    fill: var(--steelblue);
 }
 
 
