@@ -53,22 +53,24 @@ h2{
     font-weight: 500;
 }
 
-/* .waves{
-    position: absolute;
-    top: 0;
-    left: 0;
+.waves{
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    }
-     */
+}
+
 .waves svg {
     position: relative;
+    display: block;
     width: calc(100% + 1.3px);
     height: 116px;
 }
     
 .waves .shape-fill {
+    fill: var(--steelblue);
+}
+
+.custom-shape-divider-top-1701090621 .shape-fill {
     fill: #DD7230;
 }
 
@@ -184,7 +186,6 @@ footer{
 .somefooter img{
     padding: 2rem;
 }
-
 
 .links{
     display: flex;
@@ -330,7 +331,6 @@ footer{
     background: var(--steelblue);
     width: 100%;
     color: var(--latte);
-    margin-bottom: 1rem;
 }
 
 .padding{
@@ -343,6 +343,7 @@ footer{
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0.2rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .teamtypes a:hover{
