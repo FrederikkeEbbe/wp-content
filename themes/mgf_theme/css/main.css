@@ -192,7 +192,7 @@ footer{
     color: var(--jet);
 }
 
-.post-frontpage h3 { /* Font på frontpage */
+.post-frontpage h2 { /* Font på frontpage */
     color: var(--steelblue);
     font-style: italic;
     font-weight: 200;
