@@ -40,7 +40,18 @@ p {
 
 *, *::before, *::after {
     box-sizing: border-box;
-  }
+}
+
+h1{
+    font-size: 54px;
+    font-weight: 800;
+}
+
+h2{
+    font-style: italic;
+    font-size: 34px;
+    font-weight: 500;
+}
 
 /*Header styles*/
 header{
@@ -115,6 +126,18 @@ header .navmenu .sub-menu li .sub-menu {
 
 header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hover .sub-menu {
        display: block; /*Gør at man kun kan se den man hover over i sub-sub menuen*/
+}
+
+/*template-hold css*/
+
+.header-section{
+    background: var(--steelblue);
+    width: 100%;
+    color: var(--latte);
+}
+
+.padding{
+    padding: calc(8px + 1.5625vw);
 }
 
 /* Footer menu*/
