@@ -1,5 +1,5 @@
 <?php get_header(); /*her henter vi vores header fil(header.php), det er en wp funktion der er lavet i forvejen */ ?>
-<main>
+</main>
 <div>
   <h1>  <?php the_title();?>  </h1>
   
