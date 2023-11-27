@@ -50,13 +50,13 @@
                 <?php the_content(); ?>
                 <div class="links">
                     <a href="https://www.facebook.com/MunkebjergGymnastikforening">
-                        <img class="some" src="http://localhost/mgf/wp-content/uploads/2023/11/fb.png" alt="Facebook link">
+                        <img src="http://localhost/mgf/wp-content/uploads/2023/11/fb.png" alt="Facebook link">
                     </a> 
                     <a href="https://www.instagram.com/">
-                        <img class="some" src="http://localhost/mgf/wp-content/uploads/2023/11/insta.png" alt="Instagram link">
+                        <img src="http://localhost/mgf/wp-content/uploads/2023/11/insta.png" alt="Instagram link">
                     </a> 
                     <a href="https://www.tiktok.com/explore">
-                        <img class="some" src="http://localhost/mgf/wp-content/uploads/2023/11/tiktok.png" alt="Tiktok link">
+                        <img src="http://localhost/mgf/wp-content/uploads/2023/11/tiktok.png" alt="Tiktok link">
                     </a>
                 </div>
             </div>
