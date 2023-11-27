@@ -61,7 +61,6 @@ h2{
 
 .waves svg {
     position: relative;
-    top: 0;
     display: block;
     width: calc(100% + 1.3px);
     height: 116px;
@@ -69,6 +68,10 @@ h2{
     
 .waves .shape-fill {
     fill: var(--steelblue);
+}
+
+.custom-shape-divider-top-1701090621 .shape-fill {
+    fill: #DD7230;
 }
 
 
@@ -329,7 +332,6 @@ footer{
     background: var(--steelblue);
     width: 100%;
     color: var(--latte);
-    margin-bottom: 1rem;
 }
 
 .padding{
@@ -342,6 +344,7 @@ footer{
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0.2rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .teamtypes a:hover{
