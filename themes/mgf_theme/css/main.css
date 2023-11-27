@@ -328,9 +328,16 @@ footer{
     text-decoration: none;
 }
 
-.teamtypes h1{
-    position: absolute;
-    color: var(--orange);
+.teamtypeslink{ /*Position til tekst*/
+    text-align: center;
+    position: relative;
+} 
+.teamstypeslink h1 { /*Style af txt på teams billeder*/
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--orange);
 }
 
 .teamtypes img{
@@ -338,6 +345,4 @@ footer{
     width: 100%;
     object-fit: cover;
 }
-
-
 

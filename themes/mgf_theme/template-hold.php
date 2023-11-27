@@ -21,8 +21,8 @@ Template Name: Hold & tilmelding
     <h1>Børnehold</h1>
   </a>
   <a class='teamtypeslink' href="#"> 
-    <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-young.jpg" alt="Ungehold">
-    <h1>Ungehold</h1>
+    <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-young.jpg" alt="ungdomshold">
+    <h1>Ungdomshold</h1>
   </a>
   <a class='teamtypeslink' href="#"> 
     <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-adult.jpg" alt="Voksenhold">
