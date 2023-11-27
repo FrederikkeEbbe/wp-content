@@ -131,7 +131,7 @@ footer{
 
 .footersection{
     color: var(--latte);
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .footersection h3{
@@ -140,11 +140,18 @@ footer{
 }
 
 .somefooter{
+    text-align: center;
     color: var(--latte);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.somefooter img{
+    padding: 2rem;
 }
 
 
