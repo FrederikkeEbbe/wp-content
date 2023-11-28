@@ -54,6 +54,10 @@ h2{
     font-weight: 500;
 }
 
+h3{
+    font-size: 28px;
+}
+
 @media (max-width: 1200px){
     h1{
         font-size: 34px;
@@ -83,6 +87,23 @@ h2{
     fill: var(--steelblue);
 }
 
+.top-waves{
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.top-waves svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 116px;
+}
+    
+.top-waves .shape-fill {
+    fill: var(--steelblue);
+}
 
 /*********************Header styles*********************************/
 header{
@@ -475,6 +496,17 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
     background-color: #6C91C2;
 }
 
+/*************************************Hold oversigt page **************************************/
+.holdoversigt-page{
+    text-align: center;
+    background-color: var(--steelblue);
+    margin: 0;
+}
+
+.holdoversigt-page h2, h1{
+    margin: 0 3rem 0 3rem;
+    padding: calc(8px + 1.5625vw);
+}
 /**************************************Footer menu***************************/
 
 footer{
@@ -483,13 +515,6 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-.footer-grid{
-    display: flex;
-    flex-direction: column-reverse;
-    align-content: center;
-    justify-content: center;
 }
 
 .somefooter{
@@ -509,26 +534,3 @@ footer{
     font-style: italic;
     font-weight: 500;
 }
-
-
-
-@media (min-width: 650px){
-    footer{
-        background-color: var(--orange);
-    }
-    
-    .footer-grid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-}
-    
-    
-
-
-
-
-
-
-/* slut*/
