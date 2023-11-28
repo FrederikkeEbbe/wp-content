@@ -19,11 +19,11 @@ Template Name: Hold & tilmelding
   </svg>
 </div>
 <div class ="teamtypes">
-  <a class="teamtypeslink" href="#"> 
+  <a class="teamtypeslink" href="http://localhost/mgf/?page_id=94"> 
     <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-family.jpg" alt="Familiehold">
     <h1>Familiehold</h1>
   </a>
-  <a class="teamtypeslink" href="#"> 
+  <a class="teamtypeslink" href="http://localhost/mgf/?page_id=96"> 
     <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-children.jpg" alt="Børnehold">
     <h1>Børnehold</h1>
   </a>
