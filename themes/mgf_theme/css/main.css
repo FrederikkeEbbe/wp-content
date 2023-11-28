@@ -124,6 +124,17 @@ header .navmenu li{
     padding: 0.5rem 2rem 0 2rem;
 }
 
+.navmenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navmenu li {
+    margin-right: 20px;
+}
+
 /*Sub menu indstillinger*/
 header .navmenu li .sub-menu {
     display: none;
@@ -388,16 +399,18 @@ footer{
 .about-blue {
     padding: 24px;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 32px;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
+    transition: transform 0.3s ease-in-out;
 }
 
 .about-reg {
     display: flex;
     flex-direction: column-reverse;
     padding: 24px;
-    gap: 10px;
+    gap: 32px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .about-img {
@@ -406,12 +419,15 @@ footer{
     object-fit: cover;
   }
 
+  .about-blue:hover, .about-reg:hover {
+    transform: scale(1.05); /* Ændr skalaen efter dine præferencer */
+}
   
   @media (min-width: 650px) {
     .about-blue, .about-reg {
-    padding: 24px;
+    padding: 32px;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 32px;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     }
