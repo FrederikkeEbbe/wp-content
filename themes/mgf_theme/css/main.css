@@ -376,12 +376,19 @@ footer{
 
 
 /*********  Om os side   **********/
-.about-blue, .about-reg {
+.about-blue {
     padding: 24px;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
+}
+
+.about-reg {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 24px;
+    gap: 10px;
 }
 
 .about-img {
@@ -393,7 +400,11 @@ footer{
   
   @media (min-width: 650px) {
     .about-blue, .about-reg {
-      grid-template-columns: repeat(2, 1fr);
+    padding: 24px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
     }
   }
 
