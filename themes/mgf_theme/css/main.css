@@ -36,6 +36,7 @@ main {
 
 p {
     line-height: 1.5rem;
+    font-size: 18px;
 }
 
 *, *::before, *::after {
@@ -53,12 +54,15 @@ h2{
     font-weight: 500;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1200px){
     h1{
         font-size: 34px;
     }
     h2{
         font-size: 20px;
+    }
+    p{
+        font-size: 12px;
     }
 }
 
@@ -156,49 +160,53 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
 }
 
 /**************************************Footer menu***************************/
+
 footer{
-    background-color: var(--steelblue);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .footer-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+}
+
+.somefooter{
+    color: var(--latte);
+    font-style: italic;
+    font-weight: 500;
+    justify-content: space-between;
 }
 
 .footersection{
     color: var(--latte);
-    padding: 1rem;
 }
-
 .footersection h3{
     font-style: italic;
     font-weight: 500;
 }
 
-.somefooter{
-    text-align: center;
-    color: var(--latte);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-style: italic;
-    font-weight: 500;
-}
 
-.somefooter img{
-    padding: 2rem;
-}
 
-.links{
-    display: flex;
-}
-
-@media (min-width: 600px) {
+@media (min-width: 650px){
+    footer{
+        background-color: var(--steelblue);
+        flex-direction: row;
+    }
     
-}
+    /* .footer-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+     */
+    
+    
+
 
 /*************************** Front page start ************************/
 .post-frontpage h1 { /* Font på frontpage*/

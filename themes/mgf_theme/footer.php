@@ -32,7 +32,6 @@
     // Gendan den oprindelige forespørgsel og nulstil postdata
     wp_reset_postdata();
   ?>
-  </div>
   <?php //følgende kode hjælper os med at få posts ind på siden.
     $args = array(
         'post_type' => 'post',  // Vi ønsker kun indlæg
@@ -69,6 +68,7 @@
     // Gendan den oprindelige forespørgsel og nulstil postdata
     wp_reset_postdata();
   ?>
+  </div>
 </footer>
 <?php /*her laver en anden theme hook(se header for den anden)*/ wp_footer(); ?>
 </body>
