@@ -53,6 +53,15 @@ h2{
     font-weight: 500;
 }
 
+@media (max-width: 1000px){
+    h1{
+        font-size: 34px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+
 .waves{
     width: 100%;
     overflow: hidden;
@@ -68,10 +77,6 @@ h2{
     
 .waves .shape-fill {
     fill: var(--steelblue);
-}
-
-.custom-shape-divider-top-1701090621 .shape-fill {
-    fill: #DD7230;
 }
 
 
@@ -189,6 +194,10 @@ footer{
 
 .links{
     display: flex;
+}
+
+@media (min-width: 600px) {
+    
 }
 
 /*************************** Front page start ************************/
