@@ -27,19 +27,19 @@ Template Name: Hold & tilmelding
     <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-children.jpg" alt="Børnehold">
     <h1>Børnehold</h1>
   </a>
-  <a class="teamtypeslink" href="#"> 
+  <a class="teamtypeslink" href="http://localhost/mgf/?page_id=98"> 
     <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-young.jpg" alt="ungdomshold">
     <h1>Ungdomshold</h1>
   </a>
-  <a class="teamtypeslink" href="#"> 
+  <a class="teamtypeslink" href="http://localhost/mgf/?page_id=100"> 
     <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-adult.jpg" alt="Voksenhold">
     <h1>Voksenhold</h1>
   </a>
-  <a class="teamtypeslink" href="#"> 
+  <a class="teamtypeslink" href="http://localhost/mgf/?page_id=104"> 
     <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-tg.jpg" alt="Team gym">
     <h1>Teamgym</h1>
   </a>
-  <a class="teamtypeslink" href="#"> 
+  <a class="teamtypeslink" href="http://localhost/mgf/?page_id=102"> 
     <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-gp.jpg" alt="Grand prix">
     <h1>Grandprix</h1>
   </a>
