@@ -37,11 +37,11 @@ Template Name: Hold & tilmelding
   </a>
   <a class="teamtypeslink" href="#"> 
     <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-tg.jpg" alt="Team gym">
-    <h1>Team gym</h1>
+    <h1>Teamgym</h1>
   </a>
   <a class="teamtypeslink" href="#"> 
     <img src="http://localhost/mgf/wp-content/uploads/2023/11/team-gp.jpg" alt="Grand prix">
-    <h1>Grand prix</h1>
+    <h1>Grandprix</h1>
   </a>
 </div>
 <?php get_footer(); /*her henter vi vores footer fil(footer.php), det er en wp funktion der er lavet i forvejen */ ?>
