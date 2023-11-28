@@ -170,56 +170,7 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
        display: block; /*Gør at man kun kan se den man hover over i sub-sub menuen*/
 }
 
-/**************************************Footer menu***************************/
 
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.footer-grid{
-    display: flex;
-    flex-direction: column-reverse;
-    align-content: center;
-    justify-content: center;
-}
-
-.somefooter{
-    color: var(--latte);
-    font-style: italic;
-    font-weight: 500;
-}
-
-.somefooter img{
-    padding: 2rem;
-}
-
-.footersection{
-    color: var(--latte);
-}
-.footersection h3{
-    font-style: italic;
-    font-weight: 500;
-}
-
-
-
-@media (min-width: 650px){
-    footer{
-        background-color: var(--steelblue);
-        flex-direction: row;
-    }
-    
-    /* .footer-grid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-     */
-    
-    
 
 
 /*************************** Front page start ************************/
@@ -454,6 +405,56 @@ footer{
     background-color: #6C91C2;
 }
 
+/**************************************Footer menu***************************/
+
+footer{
+    background-color: var(--steelblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-grid{
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+}
+
+.somefooter{
+    color: var(--latte);
+    font-style: italic;
+    font-weight: 500;
+}
+
+.somefooter img{
+    padding: 2rem;
+}
+
+.footersection{
+    color: var(--latte);
+}
+.footersection h3{
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+
+@media (min-width: 650px){
+    footer{
+        background-color: var(--orange);
+    }
+    
+    .footer-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+    
+    
 
 
 
