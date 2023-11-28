@@ -179,7 +179,10 @@ footer{
     color: var(--latte);
     font-style: italic;
     font-weight: 500;
-    justify-content: space-between;
+}
+
+.somefooter img{
+    padding: 2rem;
 }
 
 .footersection{
