@@ -302,6 +302,14 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
     margin: 0;
 }
 
+.wp-block-video video{
+    overflow: hidden;
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+    
+}
+
 .teams-link{ /*Position til tekst*/
     text-align: center;
     position: relative;
