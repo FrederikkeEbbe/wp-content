@@ -520,6 +520,7 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
 
 .about-blue{
     background-color: #6C91C2;
+    color: var(--latte);
 }
 
 /*************************************Hold oversigt page **************************************/
