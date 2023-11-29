@@ -305,7 +305,7 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
 .wp-block-video video{
     overflow: hidden;
     object-fit: cover;
-    height: 500px;
+    max-height: 700px;
     width: 100%;
     
 }
