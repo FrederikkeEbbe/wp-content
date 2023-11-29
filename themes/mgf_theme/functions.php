@@ -27,6 +27,34 @@
     }
     add_action('wp_enqueue_scripts', 'load_js'); */
    
+    /* Bestyrelses medlems funktion */
+    function opret_medarbejder_posttype() {
+        $labels = array(
+            'name'               => 'Medarbejdere',
+            'singular_name'      => 'Medarbejder',
+            'menu_name'          => 'Medarbejdere',
+            'add_new'            => 'Tilføj ny',
+            'add_new_item'       => 'Tilføj ny medarbejder',
+            'edit_item'          => 'Rediger medarbejder',
+            'new_item'           => 'Ny medarbejder',
+            'view_item'          => 'Se medarbejder',
+            'search_items'       => 'Søg efter medarbejder',
+            'not_found'          => 'Ingen medarbejdere fundet',
+            'not_found_in_trash' => 'Ingen medarbejdere fundet i papirkurven',
+        );
+    
+        $args = array(
+            'labels'        => $labels,
+            'public'        => true,
+            'menu_position' => 5,
+            'menu_icon'     => 'dashicons-businessman', // Ændr ikonet efter ønske
+            'supports'      => array('title', 'editor', 'thumbnail'),
+            'has_archive'   => true,
+        );
+    
+        register_post_type('medarbejder', $args);
+    }
+    add_action('init', 'opret_medarbejder_posttype');
 
 
 
