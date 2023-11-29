@@ -298,7 +298,8 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
     font-weight: 200;
 }
 
-.hero-video-contain{
+.wp-block-video{
+    margin: 0;
 }
 
 .teams-link{ /*Position til tekst*/
