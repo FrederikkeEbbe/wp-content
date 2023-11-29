@@ -31,7 +31,8 @@ body {
 }
 
 main {
-    padding: calc(8px + 1.5625vw);
+    padding: 2px 134px;
+    margin: 0;
 }
 
 p {
@@ -83,26 +84,12 @@ h3{
     max-height: 116px;
 }
     
-.waves .shape-fill {
+.waves.blue .shape-fill {
     fill: var(--steelblue);
 }
 
-.top-waves{
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.top-waves svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 70px;
-}
-    
-.top-waves .shape-fill {
-    fill: var(--steelblue);
+.waves.orange .shape-fill {
+    fill: var(--orange);
 }
 
 /*********************Header styles*********************************/
@@ -425,14 +412,10 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
 /*Accordion slut*/
 
 /*********************************holdoversigt*********************************/
-.header-section{
-    background: var(--steelblue);
-    width: 100%;
-    color: var(--latte);
-}
 
 .padding{
-    padding: calc(8px + 1.5625vw);
+    padding: 2px 134px;
+    margin: 0;;
 }
 
 .teamtypes{
