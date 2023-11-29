@@ -118,6 +118,8 @@ header .navmenu {
     font-style: italic;
     display: flex;
     align-items: center;
+    font-weight: bold;
+    color: var(--jet);
 }
 
 .nav-items{
@@ -194,6 +196,7 @@ header .navmenu li{
         z-index: 999;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        border: solid var(--orange);
     }
     header .navmenu li{
         opacity: 0;
@@ -236,22 +239,37 @@ header .navmenu-active {
 header .navmenu li .sub-menu {
     display: none;
     position: absolute;
-    z-index: 999;
+    z-index: 998;
     top: 100%;
     left: 0;
     margin: 0;
-    padding: 0;
-    background: var(--silverlakeblue);
+    padding: 10px;
+    background: var(--latte);
+    border: solid var(--orange);
+    font-weight: 300;
 }
 
 header .navmenu li .sub-menu a {
     display: block;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 header .navmenu > .menu-item-has-children:hover > .sub-menu{
     display: block;
 }
+
+@media screen and (max-width: 850px) {
+    header .navmenu li .sub-menu {
+        display: block;
+        position: relative;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        padding: 0;
+        border: none;
+
+    }
+ }
 
 /* Sub-sub menu indstillinger*/
 header .navmenu .sub-menu li .sub-menu {
