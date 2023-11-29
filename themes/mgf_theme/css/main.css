@@ -126,7 +126,7 @@ header .navmenu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-top: 0.5rem;
+    padding-top: 0.9rem;
 }
 
 header .navmenu li{
@@ -147,8 +147,8 @@ header .navmenu li{
 
 .logo{
     position: absolute;
-    height: 40px;
-    padding: 0.5rem 2rem 0 2rem;
+    height: 60px;
+    padding: 0.2rem 2rem 0 2rem;
 }
 
 .navmenu {
