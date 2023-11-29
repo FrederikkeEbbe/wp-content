@@ -23,10 +23,16 @@
                         'menu_class' => 'navmenu'
                     )
                 );
+                
             ?>
             <form action="https://shop.sportogprofil.dk/munkebjerg/da/735-klubdragt">
                 <button class="webshop-button" type="submit">Webshop</button>
-            </form>
+            </form> 
+            <div class='burger'>
+                <div class='line-1'></div>
+                <div class='line-2'></div>
+                <div class='line-3'></div>
+            </div>
         </div>
     </nav>
 </header>
