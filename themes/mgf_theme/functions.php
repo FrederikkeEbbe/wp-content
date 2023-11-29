@@ -28,19 +28,16 @@
     add_action('wp_enqueue_scripts', 'load_js'); */
    
     /* Bestyrelses medlems funktion */
-    function opret_medarbejder_posttype() {
+    function opret_bestyrelse_posttype() {
         $labels = array(
-            'name'               => 'Medarbejdere',
-            'singular_name'      => 'Medarbejder',
-            'menu_name'          => 'Medarbejdere',
+            'name'               => 'Bestyrelse',
+            'singular_name'      => 'Bestyrelse',
+            'menu_name'          => 'Bestyrelses medlem',
             'add_new'            => 'Tilføj ny',
-            'add_new_item'       => 'Tilføj ny medarbejder',
-            'edit_item'          => 'Rediger medarbejder',
-            'new_item'           => 'Ny medarbejder',
-            'view_item'          => 'Se medarbejder',
-            'search_items'       => 'Søg efter medarbejder',
-            'not_found'          => 'Ingen medarbejdere fundet',
-            'not_found_in_trash' => 'Ingen medarbejdere fundet i papirkurven',
+            'add_new_item'       => 'Tilføj nyt medlem',
+            'edit_item'          => 'Rediger medlem',
+            'new_item'           => 'Nyt medlem',
+            'view_item'          => 'Se medlem'
         );
     
         $args = array(
@@ -52,9 +49,9 @@
             'has_archive'   => true,
         );
     
-        register_post_type('medarbejder', $args);
+        register_post_type('bestyrelse', $args);
     }
-    add_action('init', 'opret_medarbejder_posttype');
+    add_action('init', 'opret_bestyrelse_posttype');
 
 
 

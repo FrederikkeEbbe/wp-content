@@ -241,7 +241,6 @@ header .navmenu li .sub-menu {
     position: absolute;
     z-index: 998;
     top: 100%;
-    left: 0;
     margin: 0;
     padding: 10px;
     background: var(--latte);
@@ -549,6 +548,15 @@ footer{
 }
 
 /**********Bestyrelses side*************/
+.bestyrelses-contain{
+    background-color: var(--jet);
+    padding: 50px;
+}
 
+
+.bestyrelses-info img {
+    max-width: 100%;
+    height: auto;
+}
 
 /*Slut */
