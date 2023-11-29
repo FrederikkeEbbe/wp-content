@@ -280,8 +280,12 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
     font-weight: 200;
 }
 
-.hero-video img{
-    width: 100%;
+.hero-video{
+    text-align: center;
+}
+
+.hero-video-contain{
+    
 }
 
 .teams-link{ /*Position til tekst*/
