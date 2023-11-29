@@ -80,7 +80,7 @@ h3{
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 116px;
+    max-height: 116px;
 }
     
 .waves .shape-fill {
@@ -298,12 +298,7 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
     font-weight: 200;
 }
 
-.hero-video{
-    text-align: center;
-}
-
 .hero-video-contain{
-    
 }
 
 .teams-link{ /*Position til tekst*/

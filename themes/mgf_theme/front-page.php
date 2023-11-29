@@ -2,11 +2,11 @@
 <?php get_header(); /*her henter vi vores header fil(header.php), det er en wp funktion der er lavet i forvejen */ ?>
 
 <section class='hero-video-contain'>
-<div class='hero-video'>
-  <?php //henter content på siden. Her mediefilen lagt ind i Home page
-  get_template_part('includes/section', 'content');
-  ?>
-</div>
+  <div class='hero-video'>
+    <?php //henter content på siden. Her mediefilen lagt ind i Home page
+    get_template_part('includes/section', 'content');
+    ?>
+  </div>
 </section>
 <div class="waves">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
