@@ -520,11 +520,6 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
     background-color: var(--steelblue);
     margin: 0;
 }
-
-.holdoversigt-page h2, h1{
-    margin: 0 3rem 0 3rem;
-    padding: calc(8px + 1.5625vw);
-}
 /**************************************Footer menu***************************/
 
 footer{
