@@ -5,8 +5,10 @@ Template Name: Bestyrelse
 ?>
 
 <?php get_header(); /*her henter vi vores header fil(header.php), det er en wp funktion der er lavet i forvejen */ ?>
-
-        <?php get_template_part('includes/section', 'content');?>
+  
+<div class='bestyrelse-contain'>
+    <?php get_template_part('includes/section', 'content');?>
+</div>
 
 <main>
 </main>
