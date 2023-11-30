@@ -130,6 +130,11 @@ header .navmenu li{
     border: none;
     color: white;
     margin: 0 2rem;
+    cursor: pointer;
+}
+
+.webshop-button:hover {
+    opacity: .8;
 }
 
 .logo{
