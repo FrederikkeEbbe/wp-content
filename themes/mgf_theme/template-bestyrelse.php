@@ -11,6 +11,7 @@ Template Name: Bestyrelse
 </div>
 
 <main>
+<section class='bestyrelse-contain'>
 <?php
 // WP_Query for at hente medarbejderne
 $bestyrelse_query = new WP_Query(array(
@@ -22,11 +23,11 @@ $bestyrelse_query = new WP_Query(array(
 if ($bestyrelse_query->have_posts()) :
     while ($bestyrelse_query->have_posts()) : $bestyrelse_query->the_post();
 ?>
-        <div class="bestyrelse-contain">
+        
             <div class="bestyrelse-info">
                 <p><?php the_content();?></p>
             </div>
-        </div>
+        
 <?php
     endwhile;
 else :
@@ -36,6 +37,6 @@ endif;
 // Nulstil WP_Query
 wp_reset_postdata();
 ?>
-
+</section>
 </main>
 <?php get_footer(); /*her henter vi vores footer fil(footer.php), det er en wp funktion der er lavet i forvejen */ ?>
