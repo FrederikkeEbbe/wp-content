@@ -564,6 +564,17 @@ footer{
     grid-template-columns: repeat(1, 1fr);
 }
 
+.bestyrelse-contain h2{
+    color: var(--steelblue);
+}
+
+.bestyrelsetxt h1{
+    color: var(--orange);
+}
+.bestyrelsetxt h2{
+    color: var(--steelblue);
+}
+
 .bestyrelse-info {
     display: flex;
     flex-direction: column;

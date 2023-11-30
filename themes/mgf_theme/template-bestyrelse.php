@@ -15,8 +15,9 @@ Template Name: Bestyrelse
   
 
 <main>
-
-    <?php get_template_part('includes/section', 'content');?>
+    <div class ="bestyrelsetxt">
+        <?php get_template_part('includes/section', 'content');?>
+    </div>
 
 <section class='bestyrelse-contain'>
 <?php
