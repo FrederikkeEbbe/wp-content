@@ -135,7 +135,7 @@ header .navmenu li{
 .logo{
     position: absolute;
     height: 60px;
-    padding: 0.2rem 2rem 0 2rem;
+    padding: 0.5rem 2rem 0 2rem;
 }
 
 .navmenu {
@@ -344,7 +344,7 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
     }
   }
   
-  @media (min-width: 1024px) {
+  @media (min-width: 1200px) {
     .teams-contain {
       grid-template-columns: repeat(6, 1fr);
     }
