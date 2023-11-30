@@ -54,4 +54,30 @@
     add_action('init', 'opret_bestyrelse_posttype');
 
 
+    function opret_traener_posttype() {
+        $labels = array(
+            'name'               => 'Træner',
+            'singular_name'      => 'Træner',
+            'menu_name'          => 'Trænere',
+            'add_new'            => 'Tilføj ny',
+            'add_new_item'       => 'Tilføj ny træner',
+            'edit_item'          => 'Rediger træner',
+            'new_item'           => 'Ny træner',
+            'view_item'          => 'Se træner'
+        );
+    
+        $args = array(
+            'labels'        => $labels,
+            'public'        => true,
+            'menu_position' => 5,
+            'menu_icon'     => 'dashicons-businessman', // Ændr ikonet efter ønske
+            'supports'      => array('title', 'editor', 'thumbnail'),
+            'has_archive'   => true,
+        );
+    
+        register_post_type('traener', $args);
+    }
+    add_action('init', 'opret_traener_posttype');
+
+
 
