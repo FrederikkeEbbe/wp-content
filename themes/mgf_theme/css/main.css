@@ -561,26 +561,42 @@ footer{
 .bestyrelse-contain{
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .bestyrelse-info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 24px;
 }
 
+.bestyrelse-info p, .bestyrelse-info h2{
+    margin: 0;
+}
 
 .bestyrelse-info img {
     width: 100%;
     max-width: 200px;
     height: auto;
-    border: solid 1px var(--jet);
+    border: solid var(--orange);
+}
+
+@media (min-width: 550px) {
+    .bestyrelse-contain {
+      grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 950px) {
     .bestyrelse-contain {
       grid-template-columns: repeat(3, 1fr);
+    }
+    .bestyrelse-contain h2 {
+        font-size: 20px;
+    }
+    .bestyrelse-contain p {
+        font-size: 12px;
     }
 }
 
