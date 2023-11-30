@@ -389,6 +389,14 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
 .information-page {
     margin-top: 50px;
 }
+
+.information-page h1{
+    color: var(--orange);
+}
+
+.information-page h2{
+    color: var(--steelblue);
+}
 /*Accordion start*/
 
  .ea-header {
@@ -413,9 +421,19 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
 
 /*********************************holdoversigt*********************************/
 
+
+
 .padding{
     padding: 2px 134px;
-    margin: 0;;
+    margin: 0;
+}
+
+.padding h1{
+    color: var(--orange);
+}
+
+.padding h2{
+    color: var(--steelblue);
 }
 
 .teamtypes{
