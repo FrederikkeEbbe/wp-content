@@ -70,7 +70,7 @@
             'labels'        => $labels,
             'public'        => true,
             'menu_position' => 5,
-            'menu_icon'     => 'dashicons-businessman', // Ændr ikonet efter ønske
+            'menu_icon'     => 'dashicons-superhero', // Ændr ikonet efter ønske
             'supports'      => array('title', 'editor', 'thumbnail'),
             'has_archive'   => true,
         );
