@@ -13,11 +13,11 @@ Template Name: Bestyrelse
     </svg>
 </div>
   
-<div class='bestyrelse-contain'>
-    <?php get_template_part('includes/section', 'content');?>
-</div>
 
 <main>
+
+    <?php get_template_part('includes/section', 'content');?>
+
 <section class='bestyrelse-contain'>
 <?php
 // WP_Query for at hente medarbejderne

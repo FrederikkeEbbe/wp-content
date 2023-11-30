@@ -577,8 +577,7 @@ footer{
 
 .bestyrelse-info img {
     width: 100%;
-    max-width: 200px;
-    height: auto;
+    max-height: 200px;
     border: solid var(--orange);
 }
 
@@ -586,9 +585,12 @@ footer{
     .bestyrelse-contain {
       grid-template-columns: repeat(2, 1fr);
     }
+    .bestyrelse-info img {
+        max-height: 400px;
+    }
 }
 
-@media (min-width: 950px) {
+@media (min-width: 850px) {
     .bestyrelse-contain {
       grid-template-columns: repeat(3, 1fr);
     }
