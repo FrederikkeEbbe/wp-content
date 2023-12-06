@@ -12,7 +12,7 @@
 <header>
     <nav>
         <a href="<?php echo home_url()?>">
-            <img class="logo" src="http://localhost/mgf/wp-content/uploads/2023/11/munkebjerg_logo.png" alt="Logo">
+            <img class="logo" src="<?php echo get_home_url();?>/wp-content/uploads/2023/11/munkebjerg_logo.png" alt="Logo">
         </a>
         <div class="nav-items">   
             <!--Her fortæller vi wp hvilken lokation det her er (se vores functions for de forskellige menuer) -->

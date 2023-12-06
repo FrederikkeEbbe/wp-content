@@ -12,11 +12,11 @@ Template Name: Om os
   <div class='blue-post'>
     <?php get_template_part('includes/section', 'content');?>
   </div>
-  <img class="about-img" src="http://localhost/mgf/wp-content/uploads/2023/11/mgf-about.jpg" alt="Ungehold">
+  <img class="about-img" src="<?php echo get_home_url();?>/wp-content/uploads/2023/11/mgf-about.jpg" alt="Ungehold">
 </section>
 
 <section class='about-reg' >
-  <img class="about-img" src="http://localhost/mgf/wp-content/uploads/2023/11/mgf-goals.jpg" alt="Ungehold">
+  <img class="about-img" src="<?php echo get_home_url();?>/wp-content/uploads/2023/11/mgf-goals.jpg" alt="Ungehold">
   <?php //følgende kode hjælper os med at få posts ind på siden.
     $args = array(
         'post_type' => 'post',  // Vi ønsker kun indlæg
@@ -72,7 +72,7 @@ Template Name: Om os
     wp_reset_postdata();
   ?>
   </div>
-  <img class="about-img" src="http://localhost/mgf/wp-content/uploads/2023/11/mgf-forall.jpg" alt="Ungehold">
+  <img class="about-img" src="<?php echo get_home_url();?>/wp-content/uploads/2023/11/mgf-forall.jpg" alt="Ungehold">
 </section> 
 
 
