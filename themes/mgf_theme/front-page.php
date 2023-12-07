@@ -36,32 +36,32 @@
 
               <div class='teams-contain'>
 
-                <a class='teams-link' href="#">
+                <a class='teams-link' href="http://mgf.claralacour.com/hold-tilmelding/familie/">
                   <img class="teams-img" src="<?php echo get_home_url();?>/wp-content/uploads/2023/11/category-family-boys.jpg" alt="Familiehold">
                   <p>Familie</p>
                 </a>
                 
-                <a class='teams-link' href="#">
+                <a class='teams-link' href="http://mgf.claralacour.com/hold-tilmelding/born/">
                   <img class="teams-img" src="<?php echo get_home_url();?>/wp-content/uploads/2023/11/category-child-smile.jpg" alt="Børnehold">
                   <p>Børn</p>
                 </a>
                 
-                <a class='teams-link' href="#">
+                <a class='teams-link' href="http://mgf.claralacour.com/hold-tilmelding/unge/">
                   <img class="teams-img" src="<?php echo get_home_url();?>/wp-content/uploads/2023/11/category-young.jpg" alt="Ungehold">
                   <p>Unge</p>
                 </a>
                 
-                <a class='teams-link' href="#">
+                <a class='teams-link' href="http://mgf.claralacour.com/hold-tilmelding/voksen/">
                   <img class="teams-img" src="<?php echo get_home_url();?>/wp-content/uploads/2023/11/category-adult-walk.jpg" alt="Voksenhold">
                   <p>Voksen</p>
                 </a>
                 
-                <a class='teams-link' href="#">
+                <a class='teams-link' href="http://mgf.claralacour.com/hold-tilmelding/teamgym/">
                   <img class="teams-img" src="<?php echo get_home_url();?>/wp-content/uploads/2023/11/category-teamgym-boys.jpg" alt="TeamGym">
                   <p>TeamGym</p>
                 </a>
                 
-                <a class='teams-link' href="#">
+                <a class='teams-link' href="http://mgf.claralacour.com/hold-tilmelding/grandprix">
                   <img class="teams-img" src="<?php echo get_home_url();?>/wp-content/uploads/2023/11/category-gp-group.jpg" alt="GrandPrix">
                   <p>GrandPrix</p>
                 </a>
