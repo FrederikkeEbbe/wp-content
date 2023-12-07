@@ -11,7 +11,6 @@
 
 a {
     text-decoration: none;
-    color: #000000;
 }
 ul:visited, li:visited, a:visited {
     color: inherit;
@@ -271,6 +270,10 @@ header .navmenu .sub-menu li .sub-menu {
 
 header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hover .sub-menu {
        display: block; /*Gør at man kun kan se den man hover over i sub-sub menuen*/
+}
+
+header .navmenu a {
+    color: #000000;
 }
 
 
@@ -550,6 +553,10 @@ footer{
 .footersection h3{
     font-style: italic;
     font-weight: 500;
+}
+
+footer a{
+    color: var(--latte);
 }
 
 /**********Bestyrelses side*************/
