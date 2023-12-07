@@ -367,17 +367,6 @@ header .navmenu  .menu-item-has-children .sub-menu > .menu-item-has-children:hov
     height: 100%;
 }
 
-.post-home p a {  /* Knap til links i home post*/
-    border-radius: 50px;
-    background-color: var(--orange);
-    font-family: inherit;
-    font-size: inherit;
-    
-    padding: 10px 18px;
-   
-    border: none;
-    color: white;
-}
 
 @media only screen and (min-width: 900px) {
     main {

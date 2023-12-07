@@ -96,7 +96,8 @@
 
             <div class='post-frontpage post-home'>
 
-            <?php the_content(); ?> </div>
+            <?php the_content(); ?> 
+          </div>
       <?php
         endwhile;
 
