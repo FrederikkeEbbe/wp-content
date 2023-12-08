@@ -174,7 +174,7 @@ header .navmenu li{
         position: absolute;
         right: 0px;
         top: 160px;
-        height: 62vh;
+        height: 65vh;
         
         background-color: var(--latte);
         width: 50%;
@@ -459,6 +459,12 @@ header .navmenu a {
     transform: translate(-50%, -50%);
     color: var(--orange);
 } 
+
+@media (max-width: 500px) {
+    .teamtypes h1{
+        font-size: 25px;
+    }
+}
 
 .teamtypeslink :hover{
     opacity: 0.6;
