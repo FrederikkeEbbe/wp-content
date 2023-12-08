@@ -59,7 +59,7 @@ h3{
     font-size: 28px;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 75em){
     h1{
         font-size: 34px;
     }
@@ -166,7 +166,7 @@ header .navmenu li{
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 53.125em) {
     body {
         overflow-x: hidden;
     }
@@ -249,7 +249,7 @@ header .navmenu > .menu-item-has-children:hover > .sub-menu{
     display: block;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 53.125em) {
     header .navmenu li .sub-menu {
         display: block;
         position: relative;
@@ -347,13 +347,13 @@ header .navmenu a {
     object-fit: cover;
   }
   
-  @media (min-width: 600px) {
+  @media (min-width: 37.5em) {
     .teams-contain {
       grid-template-columns: repeat(3, 1fr);
     }
   }
   
-  @media (min-width: 1200px) {
+  @media (min-width: 75em) {
     .teams-contain {
       grid-template-columns: repeat(6, 1fr);
     }
@@ -372,7 +372,7 @@ header .navmenu a {
 }
 
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 56.25em) {
     main {
       margin: 2px 134px;
       padding: 0;
@@ -500,7 +500,7 @@ header .navmenu a {
     transform: scale(1.05); /* Ændr skalaen efter dine præferencer */
 }
   
-  @media (min-width: 650px) {
+  @media (min-width: 40.625em) {
     .about-blue, .about-reg {
     padding: 32px;
     display: grid;
@@ -510,7 +510,7 @@ header .navmenu a {
     }
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: 56.25em) {
     .about-blue, .about-reg {
       padding: 24px 134px;
     }
@@ -594,7 +594,7 @@ footer a{
     border: solid var(--orange);
 }
 
-@media (min-width: 550px) {
+@media (min-width: 34.375em) {
     .bestyrelse-contain {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -603,7 +603,7 @@ footer a{
     }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 53.125em) {
     .bestyrelse-contain {
       grid-template-columns: repeat(3, 1fr);
     }
