@@ -7,6 +7,7 @@
         <link href="<?php echo get_template_directory_uri()?>/css/main.css" rel="stylesheet">
         <script src="<?php echo get_template_directory_uri()?>/js/script.js" defer></script>
         <link rel="stylesheet" href="https://use.typekit.net/pdr3yon.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 <body>
 <header>
