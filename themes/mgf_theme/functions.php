@@ -11,7 +11,7 @@
     add_theme_support('widgets');
     
 
-    /*Kommenteret ud. Vi behøver ikke denne del. Det bruges til hvis man skal lave child themes.
+    /*Kommenteret ud. hejj Vi behøver ikke denne del. Det bruges til hvis man skal lave child themes.
     her enqueuer vi vores css fil, så vi kan style 
     function load_css(){
         wp_register_style('main', get_template_directory_uri() . '/css/main.css', array(), false, 'all');
