@@ -25,9 +25,10 @@ Template Name: Om os
     );
 
     $custom_query = new WP_Query($args); //args = argumenter
- 
+    
+    //her ses en the loop, hvor vi får fat i postene 
     if ($custom_query->have_posts()) :
-        while ($custom_query->have_posts()) : $custom_query->the_post();
+        while ($custom_query->have_posts()) : $custom_query->the_post(); //loopet kører så længe der er posts
             ?> 
 
             <div class='reg-post'>
@@ -46,7 +47,7 @@ Template Name: Om os
 
 <section class='about-blue' >
   <div class='blue-post'>
-  <?php //følgende kode hjælper os med at få posts ind på siden.
+  <?php //følgende kode hjælper os med at få posts ind på siden. Den bruges til at hente de kategorier vi har lavet i admin og poste tingene i den kategori
     $args = array(
         'post_type' => 'post',  // Vi ønsker kun indlæg
         'cat' => 13,             // Kategori ID er 13.
@@ -56,7 +57,7 @@ Template Name: Om os
     $custom_query = new WP_Query($args); //args = argumenter
  
     if ($custom_query->have_posts()) :
-        while ($custom_query->have_posts()) : $custom_query->the_post();
+        while ($custom_query->have_posts()) : $custom_query->the_post(); //loopet kører så længe der er posts
             ?> 
 
             <div class='blue-posts'>

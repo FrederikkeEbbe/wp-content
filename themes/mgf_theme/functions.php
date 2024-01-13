@@ -1,5 +1,5 @@
 <?php
-    /*her sørger vi for at vi kan vælge de her menupunkter inde i wp-admin */
+    /*her sørger vi for at vi kan vælge de her menupunkter inde i wp-admin + hvilke menupunkter der kan vælges */
     register_nav_menus(array(
     'nav-menu' => 'Vis i navigationen',
     'footer-menu' => 'Vis i footer',
@@ -29,7 +29,7 @@
    
     /* Bestyrelses medlems funktion */
     function opret_bestyrelse_posttype() {
-        $labels = array(
+        $labels = array( //her definere vi de forskellige labels inde i wp admin
             'name'               => 'Bestyrelse',
             'singular_name'      => 'Bestyrelse',
             'menu_name'          => 'Bestyrelses medlem',
@@ -40,18 +40,18 @@
             'view_item'          => 'Se medlem'
         );
     
-        $args = array(
-            'labels'        => $labels,
-            'public'        => true,
-            'menu_position' => 5,
+        $args = array( //her definere vi argumenterne 
+            'labels'        => $labels, //bruger de labes vi har defineret tidligere
+            'public'        => true, //det er offentligt
+            'menu_position' => 5, //positionen inde i wp admin
             'menu_icon'     => 'dashicons-businessman', // Ændr ikonet efter ønske
-            'supports'      => array('title', 'editor', 'thumbnail'),
+            'supports'      => array('title', 'editor', 'thumbnail'), //
             'has_archive'   => true,
         );
     
-        register_post_type('bestyrelse', $args);
+        register_post_type('bestyrelse', $args); //første parameter her er vores slug(det der skal være i vores url), det næste er argumenterne 
     }
-    add_action('init', 'opret_bestyrelse_posttype');
+    add_action('init', 'opret_bestyrelse_posttype'); //vi hooker vores action og sørger for det er registreret inde i wp 
 
 
     function opret_traener_posttype() {
