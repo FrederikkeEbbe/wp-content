@@ -293,6 +293,17 @@ header .navmenu a {
     font-weight: 200;
 }
 
+.post-news h3{
+    color: var(--orange);
+    font-size: 28px;
+}
+
+.post-news{
+    background-color: ;
+}
+
+
+
 .wp-block-video{
     margin: 0;
 }
